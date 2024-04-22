@@ -1,0 +1,30 @@
+functionsDirectory = "C:\\Users\\54266\\Documents\\Github\\code-interview-fullstack-developer-merge-and-deploy\\api\\netlify\\functions"
+functionsDirectoryOrigin = "config-v1"
+plugins = []
+headers = []
+redirects = []
+
+[functions]
+
+[functions."*"]
+
+[build]
+publish = "C:\\Users\\54266\\Documents\\Github\\code-interview-fullstack-developer-merge-and-deploy\\api"
+publishOrigin = "default"
+command = "npm run build"
+commandOrigin = "config"
+functions = "C:\\Users\\54266\\Documents\\Github\\code-interview-fullstack-developer-merge-and-deploy\\api\\netlify\\functions"
+
+[build.environment]
+
+[build.processing]
+
+[build.processing.css]
+
+[build.processing.html]
+
+[build.processing.images]
+
+[build.processing.js]
+
+[build.services]
